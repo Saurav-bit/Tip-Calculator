@@ -1,0 +1,116 @@
+body{
+   
+        background-image: linear-gradient(to right, red , yellow);
+  box-sizing: border-box;
+  font-family: "Roboto";
+}
+#main
+{
+    
+    height: 550px;
+    width: 400px;
+    margin: 100px auto;
+    box-shadow:0 0 3px  rgba(0, 0, 255, .2);
+    border-radius: 20px;
+    background-color: rgb(160, 153, 153);
+}
+#main > h1
+{
+    text-align: center;
+    background-color: #1F030C;
+    color: white;
+    margin: 0 !important;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: normal;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    max-width: 100%;
+}
+p{
+    padding-left: 20px;
+    color: black;
+    font-weight: 500;
+    margin: 16px auto;
+}
+form input[type="text"]
+{
+    width: 90px;
+}
+input{
+    padding-left: 20px;
+}
+#amount
+{
+    font-size: 15px;
+    color: red;
+    background-color: white;
+    width: 60%;
+    padding: 5px 5px 5px 5px;
+}
+#amount:focus {
+    background: #fff;
+    border: 3px solid #2980b9;
+    outline: none;
+}
+
+#service-qual {
+    padding: 2px 8px 4px 8px;
+    margin-left: 10px;
+    font-size: 25px;
+  }
+  #people-num
+  {
+      width: 60%;
+      color: red;background-color: white;
+      padding: 5px 5px 5px 5px;
+      margin-left: 5px;
+  }
+  button{
+      text-transform: uppercase;
+      font-weight: bold;
+      display: block;
+      margin: 30px auto;
+      background: #AD133A;
+      border-radius: 5px;
+      width: 200px;
+      height: 50px;
+      font-size: 18px;
+      color: white;
+  }
+  button:hover{
+      background: #2980b9;
+      border-bottom-color: aqua;
+
+  }
+  button:active{
+      position: relative;
+      top:1px;
+      
+  }
+  #tip-show
+  {
+      font-size: 30px;
+      margin-top: 5px;
+      text-align: center;
+  }
+  #tip-show:before
+  {
+      content:"Tip amount";
+      font-size:20px;
+      font-weight: bold;
+      display: block;
+      text-transform: uppercase;
+
+  }
+  #tip-show sup{
+      font-size: 20px;
+      top:-10px;
+  }
+  #tip-show small{
+      font-size: 18px;
+      font-weight: bold;
+      display: block;
+  }
+  
